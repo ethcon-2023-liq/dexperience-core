@@ -1,13 +1,15 @@
 {
-  "name": "ticketo-contract",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "hardhat-project",
   "dependencies": {
-    "@biconomy/paymaster": "^3.0.0",
-    "@truffle/hdwallet-provider": "^2.0.17",
-    "bignumber.js": "^9.1.1",
-    "dotenv": "^16.0.3",
-    "web3": "^1.8.2"
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.7.3",
+    "axios": "^1.4.0",
+    "boring-solidity": "^1.3.1",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.14.0"
   }
 }

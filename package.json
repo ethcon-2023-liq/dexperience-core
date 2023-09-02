@@ -1,0 +1,13 @@
+{
+  "name": "ticketo-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@biconomy/paymaster": "^3.0.0",
+    "@truffle/hdwallet-provider": "^2.0.17",
+    "bignumber.js": "^9.1.1",
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.2"
+  }
+}
